@@ -45,7 +45,7 @@ export const copyDirSafe = async (
   destDir: string,
   compareContent = true
 ) => {
-  const ignore = '**/node_modules/**'
+  const ignore = ''
   const dot = true
   const nodir = false
   const srcList = cache[srcDir]
